@@ -21,7 +21,7 @@ var x = setInterval(function(){
     document.getElementById("cat").src = "./gifs/" + days + ".gif";
 
     //display message on countdown finish
-    if (distance < 0){
+    if (c < 0){
         clearInterval(x);
         document.getElementById("timer").innerHTML = "I can finally see you again!!! I missed you so much <3"
         document.getElementById("cat").src = "./gifs/finalday.gif";
