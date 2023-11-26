@@ -1,5 +1,5 @@
 //set date to countdown to
-var countDownDate  = new Date("Nov 11, 2023 18:03").getTime();
+var countDownDate  = new Date("Dec 18, 2023 19:48").getTime();
 
 var x = setInterval(function(){
     //get current date
